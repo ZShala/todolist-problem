@@ -1,5 +1,5 @@
 def solution():
-    N=int(input())
+    N=int(input("Enter the length of array:"))
     A=list(map(int, input("Enter the numbers to test:").split()))
 
     count=0
@@ -9,7 +9,7 @@ def solution():
 
     print(count)
 
-T=int(input("Enter the number of test cases and the length of array:"))
+T=int(input("Enter the number of test cases:"))
 while(T>0):
     T=T-1
     solution()
